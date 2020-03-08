@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+#      authentication-database: dbAdmin
+      username: keepnote
+      password: keepnote
+      database: keepnote
+      port: 27017
+      host: 127.0.0.1
+  application:
+    name: categoryservice
+server:
+  port: 8083
